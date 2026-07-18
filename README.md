@@ -47,6 +47,3 @@ python analysis.py
 - **Model:** Logistic Regression achieved **82.1% accuracy** on a held-out 20% test set
   (179 passengers), with precision/recall of 0.82/0.90 for non-survivors and 0.81/0.70 for survivors.
 
-## Author
-
-Dawson — BTech Computer Science, Accra Technical University
