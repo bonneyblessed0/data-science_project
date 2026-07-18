@@ -1,0 +1,249 @@
+{
+  "shape": [
+    891,
+    12
+  ],
+  "columns": [
+    "PassengerId",
+    "Survived",
+    "Pclass",
+    "Name",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Ticket",
+    "Fare",
+    "Cabin",
+    "Embarked"
+  ],
+  "head": [
+    {
+      "PassengerId": 1,
+      "Survived": 0,
+      "Pclass": 3,
+      "Name": "Braund, Mr. Owen Harris",
+      "Sex": "male",
+      "Age": 22.0,
+      "SibSp": 1,
+      "Parch": 0,
+      "Ticket": "A/5 21171",
+      "Fare": 7.25,
+      "Cabin": NaN,
+      "Embarked": "S"
+    },
+    {
+      "PassengerId": 2,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",
+      "Sex": "female",
+      "Age": 38.0,
+      "SibSp": 1,
+      "Parch": 0,
+      "Ticket": "PC 17599",
+      "Fare": 71.2833,
+      "Cabin": "C85",
+      "Embarked": "C"
+    },
+    {
+      "PassengerId": 3,
+      "Survived": 1,
+      "Pclass": 3,
+      "Name": "Heikkinen, Miss. Laina",
+      "Sex": "female",
+      "Age": 26.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "STON/O2. 3101282",
+      "Fare": 7.925,
+      "Cabin": NaN,
+      "Embarked": "S"
+    },
+    {
+      "PassengerId": 4,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Futrelle, Mrs. Jacques Heath (Lily May Peel)",
+      "Sex": "female",
+      "Age": 35.0,
+      "SibSp": 1,
+      "Parch": 0,
+      "Ticket": "113803",
+      "Fare": 53.1,
+      "Cabin": "C123",
+      "Embarked": "S"
+    },
+    {
+      "PassengerId": 5,
+      "Survived": 0,
+      "Pclass": 3,
+      "Name": "Allen, Mr. William Henry",
+      "Sex": "male",
+      "Age": 35.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "373450",
+      "Fare": 8.05,
+      "Cabin": NaN,
+      "Embarked": "S"
+    }
+  ],
+  "dtypes": {
+    "PassengerId": "int64",
+    "Survived": "int64",
+    "Pclass": "int64",
+    "Name": "str",
+    "Sex": "str",
+    "Age": "float64",
+    "SibSp": "int64",
+    "Parch": "int64",
+    "Ticket": "str",
+    "Fare": "float64",
+    "Cabin": "str",
+    "Embarked": "str"
+  },
+  "missing_before": {
+    "PassengerId": 0,
+    "Survived": 0,
+    "Pclass": 0,
+    "Name": 0,
+    "Sex": 0,
+    "Age": 177,
+    "SibSp": 0,
+    "Parch": 0,
+    "Ticket": 0,
+    "Fare": 0,
+    "Cabin": 687,
+    "Embarked": 2
+  },
+  "duplicates_found": 0,
+  "missing_after": {
+    "PassengerId": 0,
+    "Survived": 0,
+    "Pclass": 0,
+    "Name": 0,
+    "Sex": 0,
+    "Age": 0,
+    "SibSp": 0,
+    "Parch": 0,
+    "Ticket": 0,
+    "Fare": 0,
+    "Embarked": 0,
+    "HasCabin": 0
+  },
+  "shape_after_cleaning": [
+    891,
+    12
+  ],
+  "descriptive_stats": {
+    "Age": {
+      "count": 891.0,
+      "mean": 29.11242424242424,
+      "std": 13.304424074688162,
+      "min": 0.42,
+      "25%": 21.5,
+      "50%": 26.0,
+      "75%": 36.0,
+      "max": 80.0
+    },
+    "Fare": {
+      "count": 891.0,
+      "mean": 32.204207968574636,
+      "std": 49.6934285971809,
+      "min": 0.0,
+      "25%": 7.9104,
+      "50%": 14.4542,
+      "75%": 31.0,
+      "max": 512.3292
+    },
+    "SibSp": {
+      "count": 891.0,
+      "mean": 0.5230078563411896,
+      "std": 1.1027434322934317,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 8.0
+    },
+    "Parch": {
+      "count": 891.0,
+      "mean": 0.38159371492704824,
+      "std": 0.8060572211299483,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 6.0
+    },
+    "Pclass": {
+      "count": 891.0,
+      "mean": 2.308641975308642,
+      "std": 0.836071240977049,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 3.0,
+      "max": 3.0
+    }
+  },
+  "freq_pclass": {
+    "3": 491,
+    "1": 216,
+    "2": 184
+  },
+  "freq_sex": {
+    "male": 577,
+    "female": 314
+  },
+  "freq_embarked": {
+    "S": 646,
+    "C": 168,
+    "Q": 77
+  },
+  "freq_survived": {
+    "0": 549,
+    "1": 342
+  },
+  "strongest_positive": [
+    "('HasCabin', 'Fare')",
+    0.4820753524525633
+  ],
+  "strongest_negative": [
+    "('HasCabin', 'Pclass')",
+    -0.725541241828957
+  ],
+  "survival_rate_by_sex": {
+    "female": 0.7420382165605095,
+    "male": 0.18890814558058924
+  },
+  "survival_rate_by_class": {
+    "1": 0.6296296296296297,
+    "2": 0.47282608695652173,
+    "3": 0.24236252545824846
+  },
+  "ml_accuracy": 0.8212290502793296,
+  "ml_confusion_matrix": [
+    [
+      99,
+      11
+    ],
+    [
+      21,
+      48
+    ]
+  ],
+  "ml_classification_report": "                 precision    recall  f1-score   support\n\nDid Not Survive       0.82      0.90      0.86       110\n       Survived       0.81      0.70      0.75        69\n\n       accuracy                           0.82       179\n      macro avg       0.82      0.80      0.81       179\n   weighted avg       0.82      0.82      0.82       179\n",
+  "ml_train_size": 712,
+  "ml_test_size": 179,
+  "ml_coefficients": {
+    "Pclass": -1.1553460383253695,
+    "Sex_enc": -2.565058773863336,
+    "Age": -0.043576551999327764,
+    "SibSp": -0.2712849152852774,
+    "Parch": -0.08109095757571179,
+    "Fare": 0.002016973404495768,
+    "Embarked_enc": -0.20794902582334973
+  }
+}
